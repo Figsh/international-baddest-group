@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Baddest Wall of Fame | Etinan Homecoming 2026</title>
@@ -14,7 +13,10 @@
 <link rel="icon" type="image/jpeg" href="https://raw.githubusercontent.com/Figsh/international-baddest-group/refs/heads/main/Screenshot_20260425-142418.jpg">
 <link rel="apple-touch-icon" href="https://raw.githubusercontent.com/Figsh/international-baddest-group/refs/heads/main/Screenshot_20260425-142418.jpg">
 
-<!-- Open Graph (Facebook, WhatsApp, Telegram previews) -->
+<!-- Font Awesome 6 (Free) -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+<!-- Open Graph / Social -->
 <meta property="og:type" content="website">
 <meta property="og:title" content="Baddest Wall of Fame | Etinan Homecoming 2026">
 <meta property="og:description" content="International Etinan Baddest Boys & Girls — Home Coming Concert 2026. One Night. One Family. One Movement. 🎤🔥">
@@ -26,748 +28,73 @@
 <meta property="og:site_name" content="Etinan Baddest Movement">
 <meta property="og:locale" content="en_NG">
 
-<!-- Twitter / X Card -->
+<!-- Twitter Card -->
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Baddest Wall of Fame | Etinan Homecoming 2026">
 <meta name="twitter:description" content="International Etinan Baddest Boys & Girls — Home Coming Concert 2026. One Night. One Family. One Movement. 🎤🔥">
 <meta name="twitter:image" content="https://raw.githubusercontent.com/Figsh/international-baddest-group/refs/heads/main/Screenshot_20260425-142418.jpg">
-<meta name="twitter:image:alt" content="Etinan Baddest Boys & Girls Homecoming 2026">
-
-<!-- WhatsApp specifically uses og: tags above, no extra needed -->
 
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
-<style>
-  :root {
-    --gold: #ffbc6e;
-    --purple: #9d7eff;
-    --pink: #ff6e9f;
-    --teal: #5effbc;
-    --bg: #05040f;
-    --surface: #0f0d20;
-    --surface2: #16132c;
-    --border: rgba(157,126,255,0.25);
-    --text: #f0ecff;
-    --muted: #9b93c9;
-  }
-
-  * { margin: 0; padding: 0; box-sizing: border-box; }
-
-  html { scroll-behavior: smooth; }
-
-  body {
-    background: var(--bg);
-    font-family: 'Outfit', sans-serif;
-    color: var(--text);
-    min-height: 100vh;
-    overflow-x: hidden;
-  }
-
-  /* ── ANIMATED BG STARS ── */
-  body::before {
-    content: '';
-    position: fixed;
-    inset: 0;
-    background-image:
-      radial-gradient(1px 1px at 10% 15%, #fff4 0%, transparent 100%),
-      radial-gradient(1px 1px at 30% 60%, #fff3 0%, transparent 100%),
-      radial-gradient(1px 1px at 55% 25%, #fff3 0%, transparent 100%),
-      radial-gradient(1px 1px at 75% 80%, #fff3 0%, transparent 100%),
-      radial-gradient(1px 1px at 90% 40%, #fff2 0%, transparent 100%),
-      radial-gradient(2px 2px at 20% 85%, #ffbc6e22 0%, transparent 100%),
-      radial-gradient(2px 2px at 60% 10%, #9d7eff22 0%, transparent 100%);
-    pointer-events: none;
-    z-index: 0;
-    animation: twinkle 6s ease-in-out infinite alternate;
-  }
-
-  @keyframes twinkle {
-    0%   { opacity: 0.6; }
-    100% { opacity: 1; }
-  }
-
-  /* ── NAVBAR ── */
-  .navbar {
-    position: sticky;
-    top: 0;
-    z-index: 200;
-    background: rgba(5,4,15,0.88);
-    backdrop-filter: blur(16px);
-    border-bottom: 1px solid var(--border);
-    padding: 0 1.5rem;
-    height: 62px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 1rem;
-  }
-
-  .logo-text {
-    font-family: 'Bebas Neue', sans-serif;
-    font-size: 1.4rem;
-    letter-spacing: 2px;
-    background: linear-gradient(120deg, var(--gold), var(--purple));
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
-    white-space: nowrap;
-  }
-
-  .logo-sub {
-    font-size: 0.58rem;
-    font-weight: 300;
-    color: var(--muted);
-    letter-spacing: 1px;
-    display: block;
-    margin-top: -4px;
-  }
-
-  .nav-right {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-    flex-wrap: wrap;
-  }
-
-  .nav-links {
-    display: flex;
-    gap: 1.4rem;
-  }
-
-  .nav-links a {
-    color: #c5beff;
-    text-decoration: none;
-    font-weight: 600;
-    font-size: 0.82rem;
-    letter-spacing: 0.5px;
-    transition: color 0.2s;
-    white-space: nowrap;
-  }
-
-  .nav-links a:hover { color: var(--gold); }
-
-  .join-btn {
-    display: inline-flex;
-    align-items: center;
-    gap: 6px;
-    background: linear-gradient(135deg, #25d366, #128c7e);
-    color: #fff;
-    font-family: 'Outfit', sans-serif;
-    font-weight: 700;
-    font-size: 0.78rem;
-    letter-spacing: 0.5px;
-    text-decoration: none;
-    padding: 0.45rem 1rem;
-    border-radius: 50px;
-    border: none;
-    cursor: pointer;
-    white-space: nowrap;
-    box-shadow: 0 0 14px #25d36644;
-    transition: all 0.25s;
-    animation: joinPulse 2.5s ease-in-out infinite;
-  }
-
-  .join-btn:hover {
-    transform: scale(1.05);
-    box-shadow: 0 0 22px #25d36688;
-    background: linear-gradient(135deg, #2be573, #1aad6e);
-  }
-
-  @keyframes joinPulse {
-    0%, 100% { box-shadow: 0 0 14px #25d36644; }
-    50% { box-shadow: 0 0 28px #25d36688; }
-  }
-
-  .search-wrap {
-    background: var(--surface2);
-    border: 1px solid var(--border);
-    border-radius: 50px;
-    display: flex;
-    align-items: center;
-    gap: 6px;
-    padding: 0.35rem 0.9rem;
-  }
-
-  .search-wrap input {
-    background: transparent;
-    border: none;
-    outline: none;
-    color: #fff;
-    font-family: 'Outfit', sans-serif;
-    font-size: 0.82rem;
-    width: 150px;
-  }
-
-  .search-wrap input::placeholder { color: var(--muted); }
-
-  /* ── HERO ── */
-  .hero {
-    text-align: center;
-    padding: 3rem 1.5rem 1.5rem;
-    position: relative;
-    z-index: 1;
-  }
-
-  .hero-eyebrow {
-    font-size: 0.7rem;
-    font-weight: 600;
-    letter-spacing: 4px;
-    color: var(--gold);
-    text-transform: uppercase;
-    margin-bottom: 0.6rem;
-    animation: fadeUp 0.6s ease both;
-  }
-
-  .hero h1 {
-    font-family: 'Bebas Neue', sans-serif;
-    font-size: clamp(2.2rem, 7vw, 5rem);
-    letter-spacing: 3px;
-    line-height: 1.05;
-    background: linear-gradient(135deg, #fff 30%, #c7b6ff);
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
-    animation: fadeUp 0.7s 0.1s ease both;
-  }
-
-  .hero-sub {
-    color: var(--muted);
-    font-size: 0.9rem;
-    margin: 0.7rem auto 0;
-    max-width: 500px;
-    animation: fadeUp 0.7s 0.2s ease both;
-  }
-
-  @keyframes fadeUp {
-    from { opacity: 0; transform: translateY(18px); }
-    to   { opacity: 1; transform: translateY(0); }
-  }
-
-  /* ── CONTAINER ── */
-  .container {
-    max-width: 1300px;
-    margin: 0 auto;
-    padding: 0 1.5rem 4rem;
-    position: relative;
-    z-index: 1;
-  }
-
-  /* ── FILTER ── */
-  .filter-bar {
-    display: flex;
-    justify-content: center;
-    gap: 0.5rem;
-    flex-wrap: wrap;
-    margin: 1.5rem 0 2rem;
-  }
-
-  .filter-btn {
-    background: var(--surface);
-    border: 1px solid var(--border);
-    padding: 0.42rem 1.1rem;
-    border-radius: 50px;
-    font-size: 0.72rem;
-    font-weight: 700;
-    font-family: 'Outfit', sans-serif;
-    cursor: pointer;
-    color: #c5beff;
-    transition: all 0.2s;
-    letter-spacing: 0.5px;
-  }
-
-  .filter-btn.active {
-    background: var(--purple);
-    border-color: var(--gold);
-    color: #0a0820;
-    box-shadow: 0 0 12px var(--purple);
-  }
-
-  .filter-btn:hover:not(.active) {
-    background: #1f1c3e;
-    border-color: var(--purple);
-  }
-
-  /* ── MEMBERS GRID ── */
-  .members-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
-    gap: 1.2rem;
-  }
-
-  .member-card {
-    border-radius: 1.4rem;
-    padding: 1.4rem 0.8rem 1rem;
-    text-align: center;
-    cursor: pointer;
-    border: 1px solid rgba(157,126,255,0.2);
-    position: relative;
-    overflow: hidden;
-    transition: transform 0.3s cubic-bezier(0.2,0.9,0.4,1.1), box-shadow 0.3s, border-color 0.3s;
-    animation: cardIn 0.5s ease both;
-  }
-
-  @keyframes cardIn {
-    from { opacity: 0; transform: translateY(20px) scale(0.96); }
-    to   { opacity: 1; transform: translateY(0) scale(1); }
-  }
-
-  .member-card:nth-child(6n+1) { background: linear-gradient(145deg,#1b1738,#0f0c23); border-top: 2px solid var(--gold); }
-  .member-card:nth-child(6n+2) { background: linear-gradient(135deg,#1e1b35,#0a0820); border-top: 2px solid var(--purple); }
-  .member-card:nth-child(6n+3) { background: radial-gradient(circle at top left,#242041,#0b0920); border-top: 2px solid var(--pink); }
-  .member-card:nth-child(6n+4) { background: repeating-linear-gradient(45deg,#19162e,#19162e 8px,#221f40 8px,#221f40 16px); border-top: 2px solid var(--teal); }
-  .member-card:nth-child(6n+5) { background: linear-gradient(112deg,#1e1a3c,#100e26); border-top: 2px solid var(--gold); }
-  .member-card:nth-child(6n+6) { background: radial-gradient(ellipse at 20% 40%,#292459,#0e0b21); border-top: 2px solid #e56eff; }
-
-  .member-card:hover {
-    transform: translateY(-7px) scale(1.02);
-    border-color: var(--gold);
-    box-shadow: 0 22px 35px -12px #9d7eff55;
-  }
-
-  /* glow for figsh */
-  .figsh-glow {
-    animation: cardIn 0.5s ease both, pulseGlow 2s 0.5s ease-in-out infinite;
-  }
-  @keyframes pulseGlow {
-    0%,100% { box-shadow: 0 0 0 0px #ffbc6e60, 0 0 0 2px #9d7eff33; }
-    50%      { box-shadow: 0 0 0 6px #ffbc6e00, 0 0 0 6px #9d7effaa; }
-  }
-
-  .avatar {
-    width: 82px;
-    height: 82px;
-    margin: 0 auto 0.7rem;
-    border-radius: 50%;
-    overflow: hidden;
-    border: 3px solid var(--gold);
-    background: #2a254b;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: transform 0.25s;
-  }
-
-  .member-card:hover .avatar { transform: scale(1.07); }
-
-  .avatar img { width: 100%; height: 100%; object-fit: cover; }
-
-  .member-name {
-    font-weight: 800;
-    font-size: 0.9rem;
-    line-height: 1.2;
-    background: linear-gradient(135deg,#fff,#dbceff);
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
-    margin-bottom: 4px;
-  }
-
-  .member-tag {
-    font-size: 0.6rem;
-    background: rgba(20,16,42,0.7);
-    border-radius: 30px;
-    padding: 2px 10px;
-    display: inline-block;
-    color: #c5bbff;
-    margin-top: 4px;
-  }
-
-  .badge {
-    position: absolute;
-    top: 7px;
-    right: 10px;
-    background: var(--gold);
-    color: #100d1e;
-    font-size: 0.52rem;
-    font-weight: 800;
-    padding: 2px 7px;
-    border-radius: 30px;
-    letter-spacing: 0.3px;
-    box-shadow: 0 0 6px gold;
-    white-space: nowrap;
-  }
-
-  .badge.admin-badge {
-    background: linear-gradient(135deg, var(--purple), #c492ff);
-    color: #fff;
-    box-shadow: 0 0 8px var(--purple);
-  }
-
-  /* ── SECTION TITLE ── */
-  .section-title {
-    font-family: 'Bebas Neue', sans-serif;
-    font-size: 1.6rem;
-    letter-spacing: 2px;
-    color: var(--gold);
-    border-left: 4px solid var(--purple);
-    padding-left: 1rem;
-    margin: 3rem 0 1.2rem;
-  }
-
-  /* ── RULES ── */
-  .rules-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-    gap: 1rem;
-    margin-bottom: 1.5rem;
-  }
-
-  .rule-card {
-    background: var(--surface2);
-    border: 1px solid var(--border);
-    border-left: 4px solid var(--purple);
-    border-radius: 1rem;
-    padding: 1rem 1.2rem;
-    cursor: pointer;
-    transition: background 0.2s, border-color 0.2s, transform 0.2s;
-    animation: fadeUp 0.5s ease both;
-  }
-
-  .rule-card:hover {
-    background: #1f1b3a;
-    border-left-color: var(--gold);
-    transform: translateX(4px);
-  }
-
-  .rule-card h3 {
-    font-size: 0.85rem;
-    font-weight: 700;
-    color: #c4a8ff;
-    display: flex;
-    align-items: center;
-    gap: 8px;
-  }
-
-  .rule-card h3 .rule-num {
-    background: var(--purple);
-    color: #fff;
-    border-radius: 50%;
-    width: 22px;
-    height: 22px;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 0.65rem;
-    flex-shrink: 0;
-  }
-
-  .rule-card p {
-    font-size: 0.78rem;
-    color: #c8c0f0;
-    margin-top: 0.6rem;
-    line-height: 1.55;
-    display: none;
-  }
-
-  .rule-card.open p { display: block; }
-  .rule-card.open { border-left-color: var(--gold); background: #1d1a37; }
-
-  .rule-arrow {
-    margin-left: auto;
-    font-size: 0.7rem;
-    transition: transform 0.2s;
-    color: var(--muted);
-  }
-  .rule-card.open .rule-arrow { transform: rotate(90deg); color: var(--gold); }
-
-  .rules-note {
-    background: #0e0c1f;
-    border-left: 4px solid var(--gold);
-    border-radius: 0.8rem;
-    padding: 1rem 1.3rem;
-    font-size: 0.8rem;
-    color: #c0b8ea;
-    line-height: 1.6;
-    margin-top: 0.5rem;
-  }
-
-  .rules-note strong { color: var(--gold); }
-  .rules-note em { color: var(--muted); display: block; margin-top: 0.5rem; }
-
-  .agree-btn {
-    display: block;
-    margin: 1.5rem auto 0;
-    padding: 0.7rem 2.5rem;
-    background: linear-gradient(135deg, var(--purple), #7c5cff);
-    border: none;
-    border-radius: 50px;
-    color: #fff;
-    font-family: 'Outfit', sans-serif;
-    font-weight: 700;
-    font-size: 0.85rem;
-    cursor: pointer;
-    letter-spacing: 1px;
-    box-shadow: 0 0 20px #9d7eff55;
-    transition: all 0.25s;
-  }
-
-  .agree-btn:hover {
-    background: linear-gradient(135deg, #b08fff, #9d7eff);
-    transform: scale(1.04);
-    box-shadow: 0 0 30px #9d7eff88;
-  }
-
-  /* ── TOAST ── */
-  .toast {
-    position: fixed;
-    bottom: 2rem;
-    left: 50%;
-    transform: translateX(-50%) translateY(20px);
-    background: linear-gradient(135deg, var(--purple), #5b40e0);
-    color: #fff;
-    padding: 0.8rem 2rem;
-    border-radius: 50px;
-    font-weight: 700;
-    font-size: 0.85rem;
-    z-index: 999;
-    opacity: 0;
-    transition: opacity 0.3s, transform 0.3s;
-    pointer-events: none;
-    box-shadow: 0 8px 24px #9d7eff55;
-    white-space: nowrap;
-  }
-  .toast.show { opacity: 1; transform: translateX(-50%) translateY(0); }
-
-  /* ── FOOTER ── */
-  footer {
-    text-align: center;
-    margin-top: 4rem;
-    padding-top: 2rem;
-    border-top: 1px solid var(--border);
-    font-size: 0.72rem;
-    color: var(--muted);
-    line-height: 2;
-    position: relative;
-    z-index: 1;
-  }
-
-  footer strong { color: var(--gold); }
-
-  /* ── RESPONSIVE ── */
-  @media (max-width: 680px) {
-    .navbar { padding: 0 1rem; height: auto; flex-wrap: wrap; padding-top: 0.75rem; padding-bottom: 0.75rem; gap: 0.75rem; }
-    .nav-links { display: none; }
-    .nav-right { width: 100%; justify-content: space-between; }
-    .search-wrap input { width: 110px; }
-    .members-grid { grid-template-columns: repeat(auto-fill, minmax(145px, 1fr)); gap: 0.9rem; }
-    .avatar { width: 68px; height: 68px; }
-    .member-name { font-size: 0.82rem; }
-    .rules-grid { grid-template-columns: 1fr; }
-    .hero h1 { font-size: 2rem; }
-  }
-
-  @media (max-width: 400px) {
-    .members-grid { grid-template-columns: repeat(2, 1fr); }
-  }
-</style>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<!-- NAVBAR -->
 <nav class="navbar">
   <div>
-    <div class="logo-text">🏆 BADDEST WALL OF FAME</div>
-    <span class="logo-sub">THE MOVEMENT · ETINAN HOMECOMING 2026</span>
+    <div class="logo-text"><i class="fas fa-trophy"></i> BADDEST WALL OF FAME</div>
+    <span class="logo-sub"><i class="fas fa-users"></i> THE MOVEMENT · ETINAN HOMECOMING 2026</span>
   </div>
   <div class="nav-right">
     <div class="nav-links">
-      <a href="#members">🏠 HALL</a>
-      <a href="#rules">📋 RULES</a>
+      <a href="#members"><i class="fas fa-door-open"></i> HALL</a>
+      <a href="#rules"><i class="fas fa-clipboard-list"></i> RULES</a>
     </div>
     <div class="search-wrap">
-      <span style="font-size:0.85rem">🔍</span>
+      <i class="fas fa-search"></i>
       <input type="text" id="searchInput" placeholder="Search member...">
     </div>
     <a class="join-btn" href="https://chat.whatsapp.com/JAdShmk5ZxvHUrdZsnDBOD?mode=gi_t" target="_blank" rel="noopener">
-      <svg width="14" height="14" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
-      JOIN GROUP
+      <i class="fab fa-whatsapp"></i> JOIN GROUP
     </a>
   </div>
 </nav>
 
-<!-- HERO -->
 <div class="hero">
-  <div class="hero-eyebrow">✦ INTERNATIONAL ETINAN BADDEST BOYS & GIRLS ✦</div>
+  <div class="hero-eyebrow">
+    <i class="fas fa-star"></i> INTERNATIONAL ETINAN BADDEST BOYS & GIRLS <i class="fas fa-star"></i>
+  </div>
   <h1>HOME COMING<br>CONCERT 2026</h1>
-  <p class="hero-sub">THE ULTIMATE REUNION · HALL OF FAME MEMBERS<br>Rep your area, don't be late!</p>
+  <p class="hero-sub"><i class="fas fa-microphone-alt"></i> THE ULTIMATE REUNION · HALL OF FAME MEMBERS<br>Rep your area, don't be late! <i class="fas fa-fire"></i></p>
 </div>
 
 <div class="container">
-
-  <!-- MEMBERS SECTION -->
   <div id="members">
     <div class="filter-bar" id="filterBar"></div>
     <div class="members-grid" id="membersGrid"></div>
   </div>
 
-  <!-- RULES SECTION -->
   <div id="rules">
-    <div class="section-title">📋 GROUP RULES · OFFICIAL GUIDELINES</div>
-    <p style="font-size:0.8rem;color:var(--muted);margin-bottom:1.2rem;">Tap a rule to expand. Please read and agree before engaging.</p>
-
+    <div class="section-title"><i class="fas fa-gavel"></i> GROUP RULES · OFFICIAL GUIDELINES</div>
+    <p style="font-size:0.8rem;color:var(--muted);margin-bottom:1.2rem;"><i class="fas fa-hand-point-right"></i> Tap a rule to expand. Please read and agree before engaging.</p>
     <div class="rules-grid" id="rulesGrid"></div>
-
     <div class="rules-note">
-      <strong>Note:</strong> These rules are not meant to offend anyone but to keep the group organized and on track.
+      <i class="fas fa-info-circle"></i> <strong>Note:</strong> These rules are not meant to offend anyone but to keep the group organized and on track.
       Any decision made by the admins is final and must be respected.
-      <em>⚡ A group without rules will fall.</em>
+      <em><i class="fas fa-shield-alt"></i> A group without rules will fall.</em>
     </div>
-
-    <button class="agree-btn" onclick="agreeRules()">✅ I Agree to the Rules</button>
+    <button class="agree-btn" onclick="agreeRules()"><i class="fas fa-check-circle"></i> I Agree to the Rules</button>
   </div>
 
   <footer>
-    <p>📍 Etinan LGA · Akwa Ibom State · DECEMBER 2026 · <strong>#ONENIGHT.ONEFAMILY.ONEMOVEMENT</strong></p>
-    <p>🎤 Powered by THE MOVEMENT | C.E.O <strong>DJ SpireX</strong> | Developed by <strong>Figsh</strong> & Baddest Admin Team</p>
-    <p>🎟️ MIN ₦1,500 · COME READY · NON-STOP AFROBEAT, AMAPIANO, FIREWORKS 🎆</p>
-    <p style="margin-top:0.5rem;">Thanks for your understanding and cooperation 🤝</p>
+    <p><i class="fas fa-map-marker-alt"></i> Etinan LGA · Akwa Ibom State · DECEMBER 2026 · <strong>#ONENIGHT.ONEFAMILY.ONEMOVEMENT</strong></p>
+    <p><i class="fas fa-headphones-alt"></i> Powered by THE MOVEMENT | C.E.O <strong>DJ SpireX</strong> | Developed by <strong>Figsh</strong> & Baddest Admin Team</p>
+    <p><i class="fas fa-ticket-alt"></i> MIN ₦1,500 · COME READY · NON-STOP AFROBEAT, AMAPIANO, FIREWORKS <i class="fas fa-fire"></i></p>
+    <p style="margin-top:0.5rem;"><i class="fas fa-handshake"></i> Thanks for your understanding and cooperation</p>
   </footer>
 </div>
 
-<!-- TOAST -->
 <div class="toast" id="toast"></div>
 
-<script>
-  // ── RULES DATA ──
-  const rules = [
-    { title: "Introduction", body: "All new members must properly introduce themselves before they can be fully recognized in the group. This helps everyone know each other and maintain order." },
-    { title: "Participation", body: "All members, including admins, are expected to participate in daily activities and group engagements. Active participation keeps the group lively and organized." },
-    { title: "Content Posting", body: "Posting of unnecessary or irrelevant content is not allowed unless it has been approved by the admins. Always ensure your posts are meaningful to the group." },
-    { title: "Respect Privacy", body: "Members are free to interact and mingle, but do not message anyone privately without their permission. Respect personal boundaries at all times." },
-    { title: "Sensitive Content", body: "Posting of explicit or inappropriate content is generally prohibited. Any exceptions must strictly follow group-approved guidelines." },
-    { title: "Behavior", body: "No quarrels, insults, or offensive language will be tolerated. Respect and maturity are expected from every member at all times." },
-    { title: "Advertisements", body: "Do not advertise events, shows, or external promotions in the group unless you have received approval from the admins." },
-  ];
-
-  const ruleIcons = ["👋","🙋","📝","🔒","🚫","🤝","📢"];
-
-  function buildRules() {
-    const grid = document.getElementById('rulesGrid');
-    grid.innerHTML = rules.map((r, i) => `
-      <div class="rule-card" onclick="toggleRule(this)" style="animation-delay:${i*0.06}s">
-        <h3>
-          <span class="rule-num">${i+1}</span>
-          ${ruleIcons[i]} Rule ${i+1}: ${r.title}
-          <span class="rule-arrow">▶</span>
-        </h3>
-        <p>${r.body}</p>
-      </div>
-    `).join('');
-  }
-
-  function toggleRule(el) {
-    el.classList.toggle('open');
-  }
-
-  function agreeRules() {
-    showToast("🙌 Thank you for agreeing to the group rules!");
-  }
-
-  // ── MEMBERS DATA ──
-  const memberNamesRaw = [
-    "DJ SpireX.Com","Jones Joseph","Oluwa Big Zaddy","Aniebiet Wilson","BiG TreNch","BRAKEMI",
-    "Emeding Benson","fresh1223334444","Hotspot FX","katatizo empire","Lonely Candy 😂😂",
-    "Nurse Mbetobong Tommy","Ømäh Blåq ❤️","Stephanie ❤️","Testimony❤️💕","Universe",
-    "Wilson Nsikan","Figsh","Precious David","Baddest Ikon","Queen V","Young Alpha","King Tino","Mighty Jay"
-  ];
-
-  // ALL are admins as instructed
-  const ceoNames    = ["dj spirex"];
-  const figshName   = "figsh";
-
-  function buildMembers() {
-    const allNames = [...new Set(memberNamesRaw)];
-    let members = allNames.map((name, idx) => {
-      const clean = name.replace(/[❤️😂😍💕]/g, '').trim();
-      const lower = clean.toLowerCase();
-      const isCeo   = ceoNames.some(c => lower.includes(c));
-      const isFigsh = lower === figshName;
-      let badge, badgeClass;
-      if (isCeo)        { badge = "👑 CEO";              badgeClass = ""; }
-      else if (isFigsh) { badge = "⚡ ADMIN · DEV";      badgeClass = "admin-badge"; }
-      else              { badge = "🛡️ ADMIN";            badgeClass = "admin-badge"; }
-
-      const letter = clean.charAt(0).toUpperCase();
-      const colors = ["9d7eff","ffbc6e","ff6e9f","5effbc","ff8c42","c492ff"];
-      const col = colors[idx % colors.length];
-      const avatar = `https://ui-avatars.com/api/?background=${col}&color=fff&rounded=true&size=100&name=${encodeURIComponent(letter)}&bold=true&fontsize=0.5`;
-      return { id: idx, originalName: name, displayName: clean, firstLetter: letter, avatar, badge, badgeClass, isFigsh, isCeo };
-    });
-
-    // Priority order: CEO → Figsh top 4/5
-    let ceoIdx = members.findIndex(m => m.isCeo);
-    if (ceoIdx > 0) { const c = members.splice(ceoIdx,1)[0]; members.unshift(c); }
-    let fIdx = members.findIndex(m => m.isFigsh);
-    if (fIdx > 4 || fIdx === -1) {
-      if (fIdx > 4) { const f = members.splice(fIdx,1)[0]; members.splice(4,0,f); }
-    }
-
-    return members;
-  }
-
-  let allMembers = buildMembers();
-
-  function renderCards(list) {
-    const grid = document.getElementById('membersGrid');
-    grid.innerHTML = '';
-    if (!list.length) {
-      grid.innerHTML = '<div style="text-align:center;width:100%;padding:2rem;color:var(--muted);">No member found 🚀</div>';
-      return;
-    }
-    list.forEach((m, i) => {
-      const card = document.createElement('div');
-      card.className = 'member-card' + (m.isFigsh ? ' figsh-glow' : '');
-      card.style.animationDelay = `${Math.min(i * 0.04, 0.6)}s`;
-      card.innerHTML = `
-        <div class="badge ${m.badgeClass}">${m.badge}</div>
-        <div class="avatar">
-          <img src="${m.avatar}" alt="${m.displayName}" loading="lazy"
-               onerror="this.src='https://ui-avatars.com/api/?background=9d7eff&color=fff&rounded=true&size=100&name=${m.firstLetter}&bold=true'">
-        </div>
-        <div class="member-name">${m.displayName}</div>
-        <div class="member-tag">${m.firstLetter} · BADDEST</div>
-      `;
-      card.addEventListener('click', () => {
-        showToast(`🔥 ${m.displayName} · ${m.badge}`);
-      });
-      grid.appendChild(card);
-    });
-  }
-
-  function buildFilters() {
-    const letters = [...new Set(allMembers.map(m => m.firstLetter))].filter(l => /[A-Z]/i.test(l)).sort();
-    const bar = document.getElementById('filterBar');
-    bar.innerHTML = `<button class="filter-btn active" data-l="all">ALL 🔥</button>` +
-      letters.map(l => `<button class="filter-btn" data-l="${l}">${l}</button>`).join('');
-    bar.querySelectorAll('.filter-btn').forEach(btn => {
-      btn.addEventListener('click', () => {
-        bar.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
-        btn.classList.add('active');
-        const l = btn.getAttribute('data-l');
-        renderCards(l === 'all' ? allMembers : allMembers.filter(m => m.firstLetter === l));
-      });
-    });
-  }
-
-  document.getElementById('searchInput').addEventListener('input', e => {
-    const q = e.target.value.trim().toLowerCase();
-    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
-    const firstBtn = document.querySelector('.filter-btn');
-    if (firstBtn && q === '') firstBtn.classList.add('active');
-    renderCards(q ? allMembers.filter(m => m.displayName.toLowerCase().includes(q)) : allMembers);
-  });
-
-  // ── TOAST ──
-  function showToast(msg) {
-    const t = document.getElementById('toast');
-    t.textContent = msg;
-    t.classList.add('show');
-    setTimeout(() => t.classList.remove('show'), 3000);
-  }
-
-  // ── INIT ──
-  buildFilters();
-  renderCards(allMembers);
-  buildRules();
-</script>
+<script src="main.js"></script>
 </body>
 </html>
