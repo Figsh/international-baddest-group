@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Support the Movement | Etinan Homecoming Concert 2026</title>
+<meta name="description" content="Contribute to the International Etinan Baddest Boys & Girls Homecoming Concert – December 2026. Stage, sound, lights — every naira counts. One Night. One Family. One Movement.">
+<meta name="keywords" content="Etinan Homecoming 2026, Etinan Concert, Baddest Boys Girls, DJ SpireX, Akwa Ibom, Etinan LGA, contribution, support">
+<meta name="author" content="Figsh · Figsh Digital">
+<meta name="theme-color" content="#ff6b2b">
+
+<link rel="icon" type="image/jpeg" href="https://raw.githubusercontent.com/Figsh/international-baddest-group/refs/heads/main/Screenshot_20260425-142418.jpg">
+<link rel="apple-touch-icon" href="https://raw.githubusercontent.com/Figsh/international-baddest-group/refs/heads/main/Screenshot_20260425-142418.jpg">
+
+<!-- OG / WhatsApp / Telegram -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Support the Movement | Etinan Homecoming Concert 2026">
+<meta property="og:description" content="Be part of history. Contribute to the International Etinan Baddest Boys & Girls Homecoming Concert — December 2026. Stage · Sound · Lights · Culture.">
+<meta property="og:image" content="https://raw.githubusercontent.com/Figsh/international-baddest-group/refs/heads/main/Screenshot_20260425-142418.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Etinan Baddest Homecoming Concert 2026">
+<meta property="og:url" content="https://figsh.github.io/international-baddest-group/ctb">
+<meta property="og:site_name" content="Etinan Baddest Movement">
+<meta property="og:locale" content="en_NG">
+
+<!-- Twitter / X -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Support the Movement | Etinan Homecoming Concert 2026">
+<meta name="twitter:description" content="Be part of history. Contribute to the International Etinan Baddest Boys & Girls Homecoming Concert — December 2026.">
+<meta name="twitter:image" content="https://raw.githubusercontent.com/Figsh/international-baddest-group/refs/heads/main/Screenshot_20260425-142418.jpg">
+<meta name="twitter:image:alt" content="Etinan Baddest Homecoming Concert 2026">
+
+<!-- <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=DM+Sans:wght@300;400;500;700&display=swap" rel="stylesheet">-->
+
+<style>
+:root {
+  --fire: #ff6b2b;
+  --gold: #ffc94a;
+  --amber: #ffaa00;
+  --night: #080608;
+  --surface: #110f15;
+  --surface2: #1a1722;
+  --surface3: #221f2d;
+  --border: rgba(255,107,43,0.18);
+  --text: #f5f0ff;
+  --muted: #9b93b8;
+  --green: #2ee89a;
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+
+body {
+  background: var(--night);
+  font-family: 'Segoe UI', sans-serif;
+  color: var(--text);
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* ── GRAIN OVERLAY ── */
+body::after {
+  content: '';
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 9999;
+  opacity: 0.025;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='1'/%3E%3C/svg%3E");
+}
+
+/* ── AMBIENT BG ── */
+.bg-orb {
+  position: fixed;
+  border-radius: 50%;
+  filter: blur(120px);
+  pointer-events: none;
+  z-index: 0;
+  animation: drift 14s ease-in-out infinite alternate;
+}
+.orb1 { width: 600px; height: 600px; background: radial-gradient(circle,#ff6b2b22,transparent 70%); top:-200px; right:-150px; }
+.orb2 { width: 500px; height: 500px; background: radial-gradient(circle,#ffc94a18,transparent 70%); bottom:-150px; left:-100px; animation-delay: -5s; }
+.orb3 { width: 300px; height: 300px; background: radial-gradient(circle,#9d7eff15,transparent 70%); top:40%; left:40%; animation-delay: -9s; }
+@keyframes drift { from { transform: translate(0,0) scale(1); } to { transform: translate(30px,-30px) scale(1.1); } }
+
+/* ── STICKY NAV ── */
+.nav {
+  position: sticky; top: 0; z-index: 100;
+  background: rgba(8,6,8,0.82);
+  backdrop-filter: blur(20px);
+  border-bottom: 1px solid var(--border);
+  padding: 0 1.5rem;
+  height: 60px;
+  display: flex; align-items: center; justify-content: space-between;
+}
+.nav-brand {
+  font-family: 'Syne', sans-serif;
+  font-weight: 800; font-size: 0.95rem;
+  letter-spacing: 1.5px;
+  background: linear-gradient(120deg, var(--fire), var(--gold));
+  -webkit-background-clip: text; background-clip: text; color: transparent;
+}
+.nav-home {
+  color: var(--muted); font-size: 0.78rem; font-weight: 500;
+  text-decoration: none; display: flex; align-items: center; gap: 5px;
+  transition: color 0.2s;
+}
+.nav-home:hover { color: var(--gold); }
+
+/* ── HERO ── */
+.hero {
+  position: relative; z-index: 1;
+  padding: 4.5rem 1.5rem 3rem;
+  text-align: center;
+  overflow: hidden;
+}
+.hero::before {
+  content: '';
+  position: absolute; inset: 0;
+  background: linear-gradient(180deg, #ff6b2b08 0%, transparent 60%);
+  pointer-events: none;
+}
+.hero-kicker {
+  display: inline-block;
+  font-size: 0.95rem; font-weight: 700; letter-spacing: 4px;
+  text-transform: uppercase; color: var(--fire);
+  border: 1px solid var(--border); border-radius: 30px;
+  padding: 4px 16px; margin-bottom: 1.2rem;
+  animation: popIn 0.5s cubic-bezier(0.2,0.9,0.3,1.2) both;
+}
+.hero h1 {
+  font-family: 'Syne', sans-serif; font-weight: 800;
+  font-size: clamp(2.4rem, 8vw, 5.5rem);
+  line-height: 1.0; letter-spacing: -1px;
+  animation: slideUp 0.7s 0.1s ease both;
+}
+.hero h1 span {
+  background: linear-gradient(135deg, var(--fire) 20%, var(--gold));
+  -webkit-background-clip: text; background-clip: text; color: transparent;
+}
+.hero-sub {
+  font-size: 0.95rem; color: var(--muted); max-width: 520px;
+  margin: 1rem auto 0; line-height: 1.7;
+  animation: slideUp 0.7s 0.2s ease both;
+}
+.hero-deadline {
+  display: inline-flex; align-items: center; gap: 8px;
+  margin-top: 1.5rem; background: var(--surface2);
+  border: 1px solid var(--border); border-radius: 50px;
+  padding: 0.5rem 1.4rem; font-size: 0.78rem; font-weight: 700;
+  color: var(--gold); letter-spacing: 0.5px;
+  animation: slideUp 0.7s 0.3s ease both;
+}
+
+@keyframes popIn   { from { opacity:0; transform:scale(0.8); } to { opacity:1; transform:scale(1); } }
+@keyframes slideUp { from { opacity:0; transform:translateY(20px); } to { opacity:1; transform:translateY(0); } }
+
+/* ── CONTAINER ── */
+.container { max-width: 1000px; margin: 0 auto; padding: 0 1.5rem 5rem; position: relative; z-index: 1; }
+
+/* ── SECTION LABEL ── */
+.sec-label {
+  font-size: 0.82rem; font-weight: 700; letter-spacing: 4px;
+  text-transform: uppercase; color: var(--fire);
+  margin-bottom: 0.6rem; display: block;
+}
+.sec-title {
+  font-family: 'Syne', sans-serif; font-size: 1.5rem;
+  font-weight: 800; margin-bottom: 0.5rem;
+}
+.sec-divider {
+  width: 40px; height: 3px;
+  background: linear-gradient(90deg, var(--fire), var(--gold));
+  border-radius: 4px; margin-bottom: 1.5rem;
+}
+
+/* ── LETTER CARD ── */
+.letter-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 1.4rem;
+  padding: 2rem 2rem 1.8rem;
+  margin-bottom: 2.5rem;
+  position: relative; overflow: hidden;
+  animation: slideUp 0.6s 0.1s ease both;
+}
+.letter-card::before {
+  content: '📢';
+  position: absolute; top: 1.2rem; right: 1.5rem;
+  font-size: 2.5rem; opacity: 0.12;
+}
+.letter-card p {
+  font-size: 0.98rem; line-height: 1.85; color: #d0c8f0;
+  margin-bottom: 1rem;
+}
+.letter-card p:last-child { margin-bottom: 0; }
+.letter-card strong { color: var(--gold); }
+
+/* ── FUND BREAKDOWN ── */
+.fund-section { margin-bottom: 2.5rem; }
+
+.fund-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem; margin-bottom: 1.5rem;
+}
+
+.fund-card {
+  background: var(--surface);
+  border: 1px solid var(--border); border-radius: 1.2rem;
+  padding: 1.4rem 1.5rem;
+  transition: transform 0.25s, border-color 0.25s, box-shadow 0.25s;
+  animation: slideUp 0.5s ease both;
+}
+.fund-card:hover { transform: translateY(-5px); border-color: var(--fire); box-shadow: 0 12px 30px -10px #ff6b2b44; }
+
+.fund-card:nth-child(1) { border-top: 3px solid var(--fire); }
+.fund-card:nth-child(2) { border-top: 3px solid var(--gold); }
+.fund-card:nth-child(3) { border-top: 3px solid #b06eff; }
+
+.fund-icon { font-size: 2rem; margin-bottom: 0.7rem; display: block; }
+.fund-name { font-size: 0.7rem; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; color: var(--muted); margin-bottom: 4px; }
+.fund-amount {
+  font-family: 'Syne', sans-serif; font-size: 1.6rem; font-weight: 800;
+  background: linear-gradient(135deg, var(--fire), var(--gold));
+  -webkit-background-clip: text; background-clip: text; color: transparent;
+}
+.fund-sub { font-size: 0.72rem; color: var(--muted); margin-top: 4px; }
+
+/* PROGRESS BARS */
+.progress-wrap { margin-top: 1rem; }
+.progress-label { display: flex; justify-content: space-between; font-size: 0.72rem; color: var(--muted); margin-bottom: 6px; }
+.progress-label span:last-child { color: var(--gold); font-weight: 700; }
+.progress-track {
+  height: 8px; background: var(--surface3); border-radius: 30px; overflow: hidden;
+}
+.progress-bar {
+  height: 100%; border-radius: 30px;
+  background: linear-gradient(90deg, var(--fire), var(--gold));
+  width: 0%; transition: width 1.4s cubic-bezier(0.4,0,0.2,1);
+  box-shadow: 0 0 8px #ff6b2b88;
+}
+
+.total-box {
+  background: linear-gradient(135deg, #1f1018, #201823);
+  border: 1px solid rgba(255,107,43,0.3);
+  border-radius: 1rem; padding: 1.2rem 1.5rem;
+  display: flex; align-items: center; justify-content: space-between;
+  flex-wrap: wrap; gap: 0.8rem;
+}
+.total-label { font-size: 0.72rem; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; color: var(--muted); }
+.total-amount {
+  font-family: 'Syne', sans-serif; font-size: 2rem; font-weight: 800;
+  background: linear-gradient(135deg, var(--fire), var(--gold));
+  -webkit-background-clip: text; background-clip: text; color: transparent;
+}
+.total-note { font-size: 0.72rem; color: var(--muted); }
+
+/* ── PAYMENT SECTION ── */
+.pay-section { margin-bottom: 2.5rem; }
+
+.pay-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+
+@media (max-width: 600px) { .pay-grid { grid-template-columns: 1fr; } }
+
+.pay-card {
+  background: var(--surface); border: 1px solid var(--border); border-radius: 1.3rem;
+  padding: 1.5rem; transition: all 0.25s;
+  animation: slideUp 0.6s ease both;
+}
+.pay-card:hover { border-color: var(--gold); transform: translateY(-4px); }
+
+.pay-card-title {
+  font-family: 'Segoe UI', sans-serif; font-size: 0.8rem;
+  font-weight: 800; letter-spacing: 1px; text-transform: uppercase;
+  margin-bottom: 0.4rem;
+}
+.pay-card:nth-child(1) .pay-card-title { color: var(--green); }
+.pay-card:nth-child(2) .pay-card-title { color: #7ec8ff; }
+
+.pay-desc { font-size: 0.98rem; color: var(--muted); margin-bottom: 1rem; line-height: 1.6; }
+
+.bank-detail {
+  background: var(--surface3); border-radius: 0.8rem;
+  padding: 1rem; margin-bottom: 1rem; position: relative;
+}
+.bank-row { font-size: 0.78rem; color: #d0c8f0; margin-bottom: 4px; }
+.bank-row span { color: var(--gold); font-weight: 700; }
+.bank-row.big { font-size: 1.1rem; font-family: 'Syne', sans-serif; font-weight: 800; color: #fff; margin-top: 6px; }
+
+.copy-btn {
+  position: absolute; top: 10px; right: 10px;
+  background: var(--surface2); border: 1px solid var(--border);
+  border-radius: 6px; padding: 4px 10px;
+  font-size: 0.65rem; font-weight: 700; color: var(--muted);
+  cursor: pointer; transition: all 0.2s;
+}
+.copy-btn:hover { border-color: var(--gold); color: var(--gold); }
+.copy-btn.copied { background: #1a3325; border-color: var(--green); color: var(--green); }
+
+.pay-cta {
+  display: block; width: 100%;
+  padding: 0.85rem; border-radius: 0.8rem;
+  text-align: center; text-decoration: none;
+  font-family: 'Segoe UI', sans-serif; font-weight: 800;
+  font-size: 0.92rem; letter-spacing: 1px;
+  transition: all 0.25s; border: none; cursor: pointer;
+}
+.pay-cta.bank-cta {
+  background: linear-gradient(135deg, var(--green), #1aad6e);
+  color: #03110a;
+  box-shadow: 0 0 16px #2ee89a33;
+}
+.pay-cta.bank-cta:hover { box-shadow: 0 0 28px #2ee89a66; transform: scale(1.02); }
+.pay-cta.devtem-cta {
+  background: linear-gradient(135deg, #7ec8ff, #3a8fff);
+  color: #030c18;
+  box-shadow: 0 0 16px #7ec8ff33;
+}
+.pay-cta.devtem-cta:hover { box-shadow: 0 0 28px #7ec8ff66; transform: scale(1.02); }
+
+.badge-verified {
+  display: inline-flex; align-items: center; gap: 5px;
+  background: rgba(46,232,154,0.1); border: 1px solid rgba(46,232,154,0.3);
+  border-radius: 30px; padding: 3px 10px;
+  font-size: 0.62rem; font-weight: 700; color: var(--green);
+  margin-bottom: 0.7rem; letter-spacing: 0.3px;
+}
+
+/* ── SCREENSHOT NOTICE ── */
+.screenshot-notice {
+  background: #1a1408; border: 1px solid rgba(255,201,74,0.3);
+  border-left: 4px solid var(--gold);
+  border-radius: 0.8rem; padding: 1rem 1.3rem;
+  font-size: 0.92rem; color: #e0d4a0; line-height: 1.65;
+  margin-bottom: 2.5rem;
+  animation: slideUp 0.6s ease both;
+  display: flex; gap: 0.8rem; align-items: flex-start;
+}
+.screenshot-notice .notice-icon { font-size: 1.3rem; flex-shrink: 0; margin-top: 2px; }
+
+/* ── TICKET SECTION ── */
+.ticket-section {
+  margin-bottom: 2.5rem;
+}
+
+.ticket-card {
+  background: linear-gradient(135deg, #1a0e2a, #0e0d1e);
+  border: 1px solid rgba(157,126,255,0.35);
+  border-radius: 1.5rem;
+  padding: 2rem;
+  position: relative; overflow: hidden;
+  animation: slideUp 0.6s ease both;
+}
+
+.ticket-card::before {
+  content: '🎟️';
+  position: absolute; bottom: -1rem; right: 1rem;
+  font-size: 7rem; opacity: 0.07;
+  pointer-events: none;
+}
+
+.ticket-card::after {
+  content: '';
+  position: absolute; top: 0; left: 0; right: 0; height: 3px;
+  background: linear-gradient(90deg, #9d7eff, #ff6b2b, var(--gold));
+  border-radius: 1.5rem 1.5rem 0 0;
+}
+
+.ticket-badge {
+  display: inline-flex; align-items: center; gap: 6px;
+  background: rgba(157,126,255,0.15); border: 1px solid rgba(157,126,255,0.4);
+  border-radius: 30px; padding: 4px 14px;
+  font-size: 0.65rem; font-weight: 800; letter-spacing: 2px;
+  text-transform: uppercase; color: #c4a8ff;
+  margin-bottom: 1rem; animation: pulse 2s ease-in-out infinite;
+}
+@keyframes pulse { 0%,100% { box-shadow: 0 0 0 0 rgba(157,126,255,0.4); } 50% { box-shadow: 0 0 0 8px rgba(157,126,255,0); } }
+
+.ticket-title {
+  font-family: 'Syne', sans-serif; font-size: 1.4rem; font-weight: 800;
+  line-height: 1.2; margin-bottom: 0.6rem;
+}
+.ticket-desc { font-size: 0.82rem; color: var(--muted); line-height: 1.7; margin-bottom: 1.5rem; max-width: 480px; }
+
+.ticket-perks {
+  display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1.5rem;
+}
+.perk {
+  background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 30px; padding: 4px 12px;
+  font-size: 0.7rem; font-weight: 600; color: #d8d0f5;
+}
+
+.ticket-cta {
+  display: inline-flex; align-items: center; gap: 8px;
+  background: linear-gradient(135deg, #9d7eff, #7c5cff);
+  color: #fff; text-decoration: none;
+  font-family: 'Syne', sans-serif; font-weight: 800;
+  font-size: 0.85rem; letter-spacing: 1px;
+  padding: 0.85rem 2rem; border-radius: 50px;
+  box-shadow: 0 0 20px #9d7eff55; transition: all 0.25s;
+}
+.ticket-cta:hover { box-shadow: 0 0 35px #9d7eff88; transform: scale(1.04); }
+
+/* ── NOTE BOX ── */
+.note-box {
+  background: var(--surface); border-radius: 1rem;
+  border: 1px solid var(--border); padding: 1.5rem;
+  font-size: 0.82rem; color: #c0b8e8; line-height: 1.75;
+  margin-bottom: 2rem; animation: slideUp 0.5s ease both;
+}
+.note-box strong { color: var(--gold); }
+
+/* ── SIGN ── */
+.sign {
+  text-align: center; padding: 2rem 0;
+  border-top: 1px solid var(--border); margin-top: 1rem;
+  font-size: 0.78rem; color: var(--muted); line-height: 2;
+}
+.sign strong { color: var(--fire); }
+
+/* ── TOAST ── */
+.toast {
+  position: fixed; bottom: 2rem; left: 50%;
+  transform: translateX(-50%) translateY(20px);
+  background: linear-gradient(135deg, #1a3325, #112a1e);
+  border: 1px solid var(--green); color: var(--green);
+  padding: 0.8rem 2rem; border-radius: 50px;
+  font-weight: 700; font-size: 0.82rem; z-index: 9998;
+  opacity: 0; transition: opacity 0.3s, transform 0.3s;
+  pointer-events: none; box-shadow: 0 8px 24px #2ee89a33;
+  white-space: nowrap;
+}
+.toast.show { opacity: 1; transform: translateX(-50%) translateY(0); }
+
+/* RESPONSIVE */
+@media (max-width: 600px) {
+  .fund-grid { grid-template-columns: 1fr; }
+  .total-box { flex-direction: column; }
+  .hero h1 { font-size: 2.2rem; }
+}
+</style>
+</head>
+
+<body>
+<div class="bg-orb orb1"></div>
+<div class="bg-orb orb2"></div>
+<div class="bg-orb orb3"></div>
+
+<!-- NAV -->
+<nav class="nav">
+  <div class="nav-brand">🎤 ETINAN MOVEMENT</div>
+  <a class="nav-home" href="index.html">← Back to Hall of Fame</a>
+</nav>
+
+<!-- HERO -->
+<div class="hero">
+  <div class="hero-kicker">📣 CALL TO ACTION</div>
+  <h1>SUPPORT<br><span>THE MOVEMENT</span></h1>
+  <p class="hero-sub">Help us build the biggest Homecoming Concert Etinan has ever seen. Every naira you give is a brick in this legacy.</p>
+  <div class="hero-deadline">⏳ MONTHLY CONTRIBUTIONS · FROM NOW TILL NOVEMBER 2026</div>
+</div>
+
+<div class="container">
+
+  <!-- OFFICIAL LETTER -->
+  <div class="letter-card">
+    <span class="sec-label">📋 Official Statement</span>
+    <p>Dear Members,</p>
+    <p>The management team is pleased to share an important update regarding our upcoming <strong>Homecoming Concert scheduled for December 2026</strong>. As part of our preparations, we have outlined three key areas that require financial support.</p>
+    <p>We kindly encourage everyone to contribute <strong>whatever amount they can from ₦1,000 and above</strong>, at every <strong>month-end till November ending</strong>. Every contribution, no matter how small, will go a long way in making this event a success.</p>
+    <p>Please note that <strong>participation is entirely voluntary</strong>. This concert is aimed at promoting our community, showcasing our culture, and strengthening our bond while living abroad. We understand the challenges of being away from home, and this event is an opportunity for us to come together and celebrate who we are.</p>
+    <p>Your support and cooperation are greatly appreciated. Thank you. 🙏</p>
+  </div>
+
+  <!-- FUND BREAKDOWN -->
+  <div class="fund-section">
+    <span class="sec-label">💰 Budget Breakdown</span>
+    <div class="sec-title">Where Your Money Goes</div>
+    <div class="sec-divider"></div>
+
+    <div class="fund-grid">
+      <div class="fund-card" style="animation-delay:0.05s">
+        <span class="fund-icon">🎪</span>
+        <div class="fund-name">Stage Setup</div>
+        <div class="fund-amount">₦200,000</div>
+        <div class="fund-sub">Main stage, platform & rigging</div>
+        <div class="progress-wrap">
+          <div class="progress-label"><span>Progress</span><span>Target Goal</span></div>
+          <div class="progress-track"><div class="progress-bar" data-target="72"></div></div>
+        </div>
+      </div>
+      <div class="fund-card" style="animation-delay:0.12s">
+        <span class="fund-icon">🔊</span>
+        <div class="fund-name">Sound System</div>
+        <div class="fund-amount">₦50,000</div>
+        <div class="fund-sub">Full PA, mics & monitors</div>
+        <div class="progress-wrap">
+          <div class="progress-label"><span>Progress</span><span>Target Goal</span></div>
+          <div class="progress-track"><div class="progress-bar" data-target="55"></div></div>
+        </div>
+      </div>
+      <div class="fund-card" style="animation-delay:0.19s">
+        <span class="fund-icon">💡</span>
+        <div class="fund-name">Lighting</div>
+        <div class="fund-amount">₦30,000</div>
+        <div class="fund-sub">Stage lights & ambience</div>
+        <div class="progress-wrap">
+          <div class="progress-label"><span>Progress</span><span>Target Goal</span></div>
+          <div class="progress-track"><div class="progress-bar" data-target="40"></div></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="total-box">
+      <div>
+        <div class="total-label">Total Budget Target</div>
+        <div class="total-note">Stage + Sound + Lighting combined</div>
+      </div>
+      <div class="total-amount">₦280,000</div>
+    </div>
+  </div>
+
+  <!-- PAYMENT OPTIONS -->
+  <div class="pay-section">
+    <span class="sec-label">💳 Make a Contribution</span>
+    <div class="sec-title">Choose Your Payment Method</div>
+    <div class="sec-divider"></div>
+
+    <div class="pay-grid">
+      <!-- BANK TRANSFER -->
+      <div class="pay-card" style="animation-delay:0.1s">
+        <div class="pay-card-title">🏦 Bank Transfer</div>
+        <p class="pay-desc">Send directly to our account. Quick and trusted. Any amount from ₦1,000.</p>
+        <div class="bank-detail">
+          <div class="bank-row">Bank: <span>Moniepoint</span></div>
+          <div class="bank-row">Name: <span>Idongesit Michael Daniel</span></div>
+          <div class="bank-row big" id="acctNum">7063547333</div>
+          <button class="copy-btn" onclick="copyAcct()">Copy</button>
+        </div>
+        <a class="pay-cta bank-cta" href="https://chat.whatsapp.com/JAdShmk5ZxvHUrdZsnDBOD?mode=gi_t">📞 Contact for Transfer Help</a>
+      </div>
+
+      <!-- DEVTEMPLE -->
+      <div class="pay-card" style="animation-delay:0.18s">
+        <div class="pay-card-title">🔒 DevTemple · Secure Pay</div>
+        <span class="badge-verified">✅ Verified & Secure Payment</span>
+        <p class="pay-desc">Pay safely through DevTemple — verified, encrypted, and instant confirmation for your records.</p>
+        <div class="bank-detail" style="background:rgba(126,200,255,0.05); border-color:rgba(126,200,255,0.2);">
+          <div class="bank-row">Platform: <span>DevTemple</span></div>
+          <div class="bank-row">Type: <span>Verified Secure Payment</span></div>
+          <div class="bank-row">Min. Amount: <span>₦1,000</span></div>
+        </div>
+        <a class="pay-cta devtem-cta" href="https://devtem.org/p?id=2ee10c1e-c547-4841-b69e-7bd31f09d562" target="_blank" rel="noopener">
+          🔐 Pay via DevTemple
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- SCREENSHOT NOTICE -->
+  <div class="screenshot-notice">
+    <div class="notice-icon">📸</div>
+    <div>
+      <strong style="color:var(--gold); display:block; margin-bottom:4px;">Important: Drop Your Screenshot</strong>
+      After making your payment, kindly drop a screenshot on the group as confirmation. This helps management track contributions and ensure transparency for all members. Thank you for your cooperation! 🙏
+    </div>
+  </div>
+
+  <!-- EARLY ACCESS TICKET -->
+  <div class="ticket-section">
+    <span class="sec-label">🎟️ Limited Access</span>
+    <div class="ticket-card">
+      <div class="ticket-badge">⚡ EARLY ACCESS AVAILABLE NOW</div>
+      <div class="ticket-title">Secure Your Spot at<br>Homecoming 2026</div>
+      <p class="ticket-desc">
+        Don't wait till doors open. Early access ticket holders get priority entry, reserved experience zones, and exclusive perks on the night of the concert. Slots are limited — grab yours before they're gone!
+      </p>
+      <div class="ticket-perks">
+        <span class="perk">🚪 Priority Entry</span>
+        <span class="perk">🌟 Reserved Zone</span>
+        <span class="perk">🎁 Exclusive Perks</span>
+        <span class="perk">🎤 Live Concert</span>
+        <span class="perk">🎆 Fireworks</span>
+        <span class="perk">💃 Amapiano & Afrobeat</span>
+      </div>
+      <a class="ticket-cta" href="https://devtem.org/p?id=8f04f6db-e3a0-405d-868b-cf988b02292c" target="_blank" rel="noopener">
+        🎟️ Get Early Access Ticket →
+      </a>
+    </div>
+  </div>
+
+  <!-- NOTE -->
+  <div class="note-box">
+    <strong>📌 Management Note:</strong><br>
+    These contributions are aimed at promoting our community, showcasing our culture, and strengthening our bond while living abroad. We understand the challenges of being away from home — this concert is our chance to come together and celebrate who we are as Etinan people.<br><br>
+    <strong>Any decision made by the management team is final.</strong> Contributions are voluntary and non-refundable once submitted toward concert production costs.
+  </div>
+
+  <!-- SIGN OFF -->
+  <div class="sign">
+    <div>— Management</div>
+    <div><strong>INTERNATIONAL ETINAN BADDEST BOYS & GIRLS HOMECOMING CONCERT</strong></div>
+    <div style="margin-top:0.4rem;">Thanks for your understanding and cooperation 🤝</div>
+    <div style="margin-top:0.4rem; font-size:0.7rem;">Developed by <strong>Figsh</strong></div>
+    <div style="font-size:0.7rem;">Powered by <strong>The CEO</strong></div>
+  </div>
+
+</div>
+
+<!-- TOAST -->
+<div class="toast" id="toast"></div>
+
+<script>
+  // Progress bars animate on scroll
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if (e.isIntersecting) {
+        const bar = e.target;
+        bar.style.width = bar.dataset.target + '%';
+        observer.unobserve(bar);
+      }
+    });
+  }, { threshold: 0.3 });
+
+  document.querySelectorAll('.progress-bar').forEach(b => observer.observe(b));
+
+  // Copy account number
+  function copyAcct() {
+    navigator.clipboard.writeText('7063547333').then(() => {
+      const btn = document.querySelector('.copy-btn');
+      btn.textContent = 'Copied!';
+      btn.classList.add('copied');
+      showToast('Account number copied — 7063547333');
+      setTimeout(() => { btn.textContent = 'Copy'; btn.classList.remove('copied'); }, 2500);
+    });
+  }
+
+  function showToast(msg) {
+    const t = document.getElementById('toast');
+    t.textContent = msg;
+    t.classList.add('show');
+    setTimeout(() => t.classList.remove('show'), 3000);
+  }
+</script>
+</body>
+</html>
